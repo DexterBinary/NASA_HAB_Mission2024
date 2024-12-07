@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   aria-hidden="true"
+   focusable="false"
+   data-prefix="fas"
+   data-icon="mountains"
+   role="img"
+   viewBox="0 0 377.95275 377.95275"
+   class="svg-inline--fa fa-mountains fa-w-20 fa-3x"
+   version="1.1"
+   id="svg1479"
+   sodipodi:docname="INPUT BAROMETER.svg"
+   width="100mm"
+   height="100mm"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1483" />
+  <sodipodi:namedview
+     id="namedview1481"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.0996094"
+     inkscape:cx="47.744226"
+     inkscape:cy="203.25399"
+     inkscape:window-width="1296"
+     inkscape:window-height="1003"
+     inkscape:window-x="-36"
+     inkscape:window-y="154"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1479"
+     units="mm"
+     inkscape:document-units="mm" />
+  <path
+     fill="currentColor"
+     d="M 375.43081,278.09669 260.83995,102.3482 c -6.83269,-10.482312 -23.504,-10.482312 -30.33669,0 l -19.39375,29.74614 39.96861,62.40961 c 1.40551,2.19686 0.76771,5.12009 -1.42914,6.52561 l -7.94884,5.09056 c -2.19686,1.40552 -5.12009,0.76772 -6.52561,-1.42913 L 199.80042,149.45068 157.98338,84.165079 c -7.32285,-11.433101 -25.18117,-11.433101 -32.50402,0 L 2.7034432,275.89394 C -4.7198049,287.48647 4.0203758,302.3625 18.258602,302.3625 H 360.90912 c 13.28743,0 21.44889,-13.63585 14.52169,-24.26581 z"
+     class=""
+     id="path1477"
+     style="stroke-width:0.590551" />
+</svg>

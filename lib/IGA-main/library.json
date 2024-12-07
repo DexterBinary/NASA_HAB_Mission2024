@@ -1,0 +1,34 @@
+{
+    "name": "IGA",
+    "version": "1.0.0",
+    "description": "IGA: Input Gas A - Total Volatile Organic Compounds and CO2 Equivalent Sensor",
+    "keywords": "IGA CO2 TVOC",
+    "authors": [{
+        "name": "Bjarke Gotfredsen",
+        "url": "https://github.com/gotfredsen",
+        "maintainer": true
+    }],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/domino4com/IGA.git"
+    },
+    "homepage": "https://github.com/domino4com/IGA",
+    "export": {
+        "include": [
+            "LICENSE",
+            "library.json",
+            "library.properties",
+            "README.md",
+            "keywords.txt",
+            "src/*",
+            "examples/*"
+        ]
+    },
+    "frameworks": ["arduino", "espidf"],
+    "platforms": "esp32",
+    "headers": "IGA.h",
+    "dependencies":
+    {
+        "bblanchon/ArduinoJson": "^6.21.3"
+    }
+}

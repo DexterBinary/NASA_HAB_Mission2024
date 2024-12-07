@@ -1,0 +1,34 @@
+{
+    "name": "IWB",
+    "version": "1.0.0",
+    "description": "IWB: Input ? ? - ???",
+    "keywords": "IWB ? ?",
+    "authors": [{
+        "name": "Bjarke Gotfredsen",
+        "url": "https://github.com/gotfredsen",
+        "maintainer": true
+    }],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/domino4com/IWB.git"
+    },
+    "homepage": "https://github.com/domino4com/IWB",
+    "export": {
+        "include": [
+            "LICENSE",
+            "library.json",
+            "library.properties",
+            "README.md",
+            "keywords.txt",
+            "src/*",
+            "examples/*"
+        ]
+    },
+    "frameworks": ["arduino", "espidf"],
+    "platforms": "esp32",
+    "headers": "IWB.h",
+    "dependencies":
+    {
+        "bblanchon/ArduinoJson": "^6.21.3"
+    }
+}

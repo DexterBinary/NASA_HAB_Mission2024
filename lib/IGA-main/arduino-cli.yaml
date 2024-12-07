@@ -1,0 +1,9 @@
+directories:
+  data: .arduino
+  downloads: .arduino/staging
+  user: .arduino
+board_manager:
+  additional_urls:
+    - https://dl.espressif.com/dl/package_esp32_index.json
+telemetry:
+  enabled: false

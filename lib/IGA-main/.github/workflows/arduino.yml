@@ -1,0 +1,46 @@
+name: Arduino
+ 
+on:
+  push:
+    paths:
+      - examples/**
+      - src/**
+  pull_request:
+  release:
+    types:
+      - created
+  schedule:
+    - cron: '0 5 15 * *'
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest 
+
+    permissions: write-all
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+ 
+      - name: Setup Arduino CLI
+        uses: arduino/setup-arduino-cli@v1.1.1
+
+      - name: Install repo as library
+        run: |
+          mkdir -p "$HOME/Arduino/libraries"
+          ln -s "$PWD" "$HOME/Arduino/libraries/."  
+ 
+      - name: Install platform
+        run: |
+          arduino-cli core update-index
+          arduino-cli board listall
+          arduino-cli core install esp32:esp32
+
+      - name: Install libraries
+        run: arduino-cli lib install "ArduinoJson"
+
+      - name: Compile Example
+        run: arduino-cli compile --fqbn esp32:esp32:esp32 ./examples/example  --warnings more
+ 
+      - name: Compile JSON
+        run: arduino-cli compile --fqbn esp32:esp32:esp32 ./examples/json  --warnings more
